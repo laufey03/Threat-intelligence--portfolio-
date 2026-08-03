@@ -28,3 +28,30 @@ Kali Linux • Shodan • Maltego • VirusTotal • MITRE ATT&CK Navigator • 
 LinkedIn: https://www.linkedin.com/in/raki03cyb/
 Email: rakeshradhakrishnancyber@gmail.com
 
+
+
+
+
+
+### 2. LockBit Ransomware Group: Threat Profile, Dark Web Intelligence & Operation Cronos Analysis
+
+A comprehensive intelligence report combining threat actor 
+profiling, dark web forum chatter analysis, and an in-depth 
+assessment of Operation Cronos — the international law 
+enforcement operation that dismantled LockBit's infrastructure 
+in February 2024. Covers LockBit's RaaS model, affiliate 
+network collapse, victim analysis across 120 countries, and 
+current operational status as of 2026.
+
+[View Report] https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/02-lockbit-dark-web-intelligence/LockBit%20Ransomware.pdf
+
+## SKILLS 
+
+- Dark web forum intelligence & chatter analysis
+- Ransomware ecosystem analysis
+- Law enforcement disruption impact assessment
+
+
+
+
+
