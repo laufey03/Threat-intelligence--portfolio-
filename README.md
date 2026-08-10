@@ -29,10 +29,6 @@ LinkedIn: https://www.linkedin.com/in/raki03cyb/
 Email: rakeshradhakrishnancyber@gmail.com
 
 
-
-
-
-
 ### 2. LockBit Ransomware Group: Threat Profile, Dark Web Intelligence & Operation Cronos Analysis
 
 A comprehensive intelligence report combining threat actor 
@@ -45,6 +41,16 @@ current operational status as of 2026.
 
 [View Report] https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/02-lockbit-dark-web-intelligence/LockBit%20Ransomware.pdf
 
+
+
+#### 3. A IOC extractor Tool  
+
+A python tool that can automatically extract the IOCs like IP address , hashes including SHA128,SHA256,SHA512 and the URLs and domains using RegEx matching pattern. 
+
+link to the tool --------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/03-ioc-extractor/IOC_extractor.py
+
+
+
 ## SKILLS 
 
 - Dark web forum intelligence & chatter analysis
@@ -53,14 +59,6 @@ current operational status as of 2026.
 - python script for threat intel automation
 - RegEx for IOC extraction
 - Security tool development
-
-
-
-#### 3. A IOC extractor Tool  
-
-A python tool that can automatically extract the IOCs like IP address , hashes including SHA128,SHA256,SHA512 and the URLs and domains using RegEx matching pattern. 
-
-link to the tool --------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/03-ioc-extractor/IOC_extractor.py
 
 
 
