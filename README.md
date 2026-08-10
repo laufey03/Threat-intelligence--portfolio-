@@ -53,5 +53,11 @@ current operational status as of 2026.
 
 
 
+#### 3. A IOC extractor Tool  
+
+A python tool that can automatically extract the IOCs like IP address , hashes including SHA128,SHA256,SHA512 and the URLs and domains using RegEx matching pattern. 
+
+
+
 
 
