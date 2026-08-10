@@ -50,6 +50,9 @@ current operational status as of 2026.
 - Dark web forum intelligence & chatter analysis
 - Ransomware ecosystem analysis
 - Law enforcement disruption impact assessment
+- python script for threat intel automation
+- RegEx for IOC extraction
+- Security tool development
 
 
 
