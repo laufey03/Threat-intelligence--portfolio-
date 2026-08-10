@@ -57,6 +57,8 @@ current operational status as of 2026.
 
 A python tool that can automatically extract the IOCs like IP address , hashes including SHA128,SHA256,SHA512 and the URLs and domains using RegEx matching pattern. 
 
+link to the tool --------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/03-ioc-extractor/IOC_extractor.py
+
 
 
 
