@@ -36,24 +36,33 @@ found_ips = ip_pattern.findall(text)
 
 #Display results 
 print(f"\n   [+] IP adresses found: {len(found_ips)}")
-for ip in found_ips:
-    print(f"   ->  {ip}")
+if len(found_ips) == 0:
+    print ("    -> No IP address Detected .....")
+else:
+    for ip in found_ips:
+       print(f"   ->  {ip}")
 
 #domain_pattern
 
 domain_pattern = re.compile(r'(?<![:/])\b((?:[a-zA-Z0-9][a-zA-Z0-9-]*\.)+(?:com|org|net|edu|gov|mil|xyz|io|co|uk|de|fr|ru|cn|jp))\b')
 found_domains=domain_pattern.findall(text)
 print(f"\n   [+] Domains Found:{len(found_domains)}")
-for domain in found_domains:
-    print(f"   ->  {domain}")
+if len(found_domains) == 0:
+    print ("    -> No Domains Detected.......")
+else:
+    for domain in found_domains:
+        print(f"   ->  {domain}")
 
 #url_pattern
 url_pattern = re.compile(r'(https?://(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(?:/[^\s]*)?)')
 #search for urls
 found_urls=url_pattern.findall(text)
 print(f"\n   [+] Found URLs:{len(found_urls)}")
-for url in found_urls:
-    print(f"   -> {url}")
+if len(found_urls) == 0:
+    print("    -> No URLs Detected ......")
+else:
+    for url in found_urls:
+        print(f"   -> {url}")
 
 #hash_pattern
 hash_pattern= re.compile(r'\b([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64}|[a-fA-F0-9]{128})\b')
@@ -61,7 +70,10 @@ hash_pattern= re.compile(r'\b([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64}|[a
 #search_hashes
 found_hashes= hash_pattern.findall(text)
 print(f"\n   [+] Files Hashes found:{len(found_hashes)}")
-for hash in found_hashes:
-    print(f"   -> {hash}")
+if len(found_hashes)== 0:
+    print("    -> No Hashes Detected....... ")
+else:
+    for hash in found_hashes:
+        print(f"   -> {hash}")
 
 print("\n ======================================================================================================")
