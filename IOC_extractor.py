@@ -41,7 +41,7 @@ for ip in found_ips:
 
 #domain_pattern
 
-domain_pattern = re.compile(r'(?<![:/])\b((?:[a-zA-Z0-9-]+\.)+(?:com|org|net|edu|gov|mil|xyz|io|co|uk|de|fr|ru|cn|jp))\b')
+domain_pattern = re.compile(r'(?<![:/])\b((?:[a-zA-Z0-9][a-zA-Z0-9-]*\.)+(?:com|org|net|edu|gov|mil|xyz|io|co|uk|de|fr|ru|cn|jp))\b')
 found_domains=domain_pattern.findall(text)
 print(f"\n   [+] Domains Found:{len(found_domains)}")
 for domain in found_domains:
@@ -60,7 +60,7 @@ hash_pattern= re.compile(r'\b([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64}|[a
 
 #search_hashes
 found_hashes= hash_pattern.findall(text)
-print("\n   [+] Files Hashes found:{len(found_hashes)}")
+print(f"\n   [+] Files Hashes found:{len(found_hashes)}")
 for hash in found_hashes:
     print(f"   -> {hash}")
 
