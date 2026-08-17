@@ -51,6 +51,32 @@ link to the tool --------> https://github.com/laufey03/Threat-intelligence--port
 
 
 
+#### 4. A CVE Lookup tool 
+
+# CVE Lookup Tool
+
+A Python-based command line tool that queries the 
+National Vulnerability Database (NVD) API in real time 
+to retrieve detailed information about any CVE.
+
+## What it does
+
+- Accepts any CVE ID as input (e.g. CVE-2021-44228)
+- Queries the NVD API automatically
+- Returns severity rating, CVSS score, published date and full description
+- Supports multiple lookups in one session without restarting
+- Handles both CVSS v3.1 and v2 scoring formats gracefully
+
+## Tools and concepts used
+
+- Python 3
+- requests library — HTTP API calls
+- JSON parsing — navigating nested API responses
+- try/except error handling — graceful fallback for missing data
+- while loop — continuous lookup session
+
+
+
 ## SKILLS 
 
 - Dark web forum intelligence & chatter analysis
@@ -59,6 +85,7 @@ link to the tool --------> https://github.com/laufey03/Threat-intelligence--port
 - python script for threat intel automation
 - RegEx for IOC extraction
 - Security tool development
+- CVE lookup tool development 
 
 
 
