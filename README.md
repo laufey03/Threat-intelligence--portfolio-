@@ -75,6 +75,8 @@ to retrieve detailed information about any CVE.
 - try/except error handling — graceful fallback for missing data
 - while loop — continuous lookup session
 
+link to the tool ------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/04-CVE-lookuptool/cve_lookup.py
+
 
 
 ## SKILLS 
