@@ -46,11 +46,13 @@ print(f"\n        Reply-To        :  {reply_to}")
 print(f"\n        Return-Path     :  {return_path}")
 
 print(f"\n                               --------AUTHENTICATION RESULTS-------------                                     ")
+
 print(f"\n         SPF             : {spf_result}")
 print(f"\n         DKIM            : {dkim_result}")
 print(f"\n         DMARC           : {dmarc_result}")
 
 print("\n                               ---------SUSPICIOUS INDICATORS---------------                                     ")
+
 
 if spf_result == "fail":
     print ("\n   ! SPF - failed  - Sender is not authorised to send mail from this domain  ")
