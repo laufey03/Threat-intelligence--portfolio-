@@ -37,7 +37,7 @@ dmarc_result = dmarc_match.group(1) if dmarc_match else 'Not found'
 
 
 print("\n =====================================================================================================================")
-print("\n                                     PHISHING EMAIL ANALYSIS RESULTS                                           ")
+print("\n                                        PHISHING EMAIL ANALYSIS RESULTS                                           ")
 print("\n =====================================================================================================================")
 print(f"\n        Subject         :  {subject}")
 print(f"\n        Date            :  {date}")
