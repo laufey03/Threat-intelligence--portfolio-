@@ -78,6 +78,17 @@ to retrieve detailed information about any CVE.
 link to the tool ------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/04-CVE-lookuptool/cve_lookup.py
 
 
+### 5. Phishing Email Header Analyzer
+A Python tool that analyzes raw email headers to detect 
+phishing indicators including SPF, DKIM and DMARC 
+authentication failures, and Reply-To mismatch attacks — 
+one of the most common phishing techniques used by threat actors.
+
+
+link to the tool --------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/05-Phishing-analyzer/phishing_analyzer.py
+
+
+
 
 ## SKILLS 
 
@@ -87,7 +98,8 @@ link to the tool ------> https://github.com/laufey03/Threat-intelligence--portfo
 - python script for threat intel automation
 - RegEx for IOC extraction
 - Security tool development
-- CVE lookup tool development 
+- CVE lookup tool development
+- Phishing email analysis 
 
 
 
