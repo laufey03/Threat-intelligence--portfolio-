@@ -53,7 +53,7 @@ print(f"\n         DMARC           : {dmarc_result}")
 print("\n                               ---------SUSPICIOUS INDICATORS---------------                                     ")
 
 if spf_result == "fail":
-    print ("\n   !  SPF - failed  - Sender is not authorised to send mail from this domain  ")
+    print ("\n   ! SPF - failed  - Sender is not authorised to send mail from this domain  ")
 
 if dkim_result == "fail":
     print("\n    ! DKIM - failed - E-mail might be tampered")
@@ -61,7 +61,7 @@ if dmarc_result == "fail":
     print ("\n   ! DMARC - failed - Domain Authentication failed ")
 
 if reply_to != "Not found" and reply_to != from_address:
-    print(f"\n ! Reply-To Mismatch From address : {from_address} but Reply-To : {reply_to} ")
+    print(f"\n   ! Reply-To Mismatch From address : {from_address} but Reply-To : {reply_to} ")
 
 if spf_result != "fail" and dkim_result != "fail" and dmarc_result != "fail" and (reply_to == "Not found" or reply_to == from_address):
     print("   [+] NO SUSPICIOUS INDICATORS DETECTED ........")
