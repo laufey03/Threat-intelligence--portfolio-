@@ -87,6 +87,9 @@ one of the most common phishing techniques used by threat actors.
 
 link to the tool --------> https://github.com/laufey03/Threat-intelligence--portfolio-/blob/main/05-Phishing-analyzer/phishing_analyzer.py
 
+### 6. OSINT Domain Unmasking — Sahibinden.com
+A threat intelligence assessment of sahibinden.com built entirely from passive reconnaissance (TLP:CLEAR). It maps external exposure across social media impersonation, rogue apps, GitHub clones, harvestable emails, internet-facing infrastructure (open SMB port 445, subdomains) and dark web leak claims, including the Tanaka ransomware group. Each finding carries a severity rating, confidence-rated key judgements and prioritised recommendations for executive readers. Prepared by Rakesh R · November 2025.
+
 
 
 
@@ -99,7 +102,8 @@ link to the tool --------> https://github.com/laufey03/Threat-intelligence--port
 - RegEx for IOC extraction
 - Security tool development
 - CVE lookup tool development
-- Phishing email analysis 
+- Phishing email analysis
+- OSINT
 
 
 
